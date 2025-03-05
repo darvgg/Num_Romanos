@@ -26,3 +26,9 @@ describe("Convertir los números", () => {
     expect(convertir(1000)).toEqual("M");
   });
 });
+
+describe("Mostrara error al enviar un numero mayor a 1000", () => {
+  it("Verificando mensaje de error", () => {
+    expect(convertir(1001)).toEqual("El limite es 1000");
+  });
+});
