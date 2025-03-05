@@ -1,5 +1,5 @@
-const valores = [5,4,1];
-const simbolos = ["V","IV","I"];
+const valores = [100, 90, 50, 40, 10, 9, 5, 4, 1];
+const simbolos = ["C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"];
 
 function convertir (numero){
     let resultado = "";
