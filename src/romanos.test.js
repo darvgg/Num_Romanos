@@ -22,4 +22,7 @@ describe("Convertir los números", () => {
   it("Debería convertir 500 a D", () => {
     expect(convertir(500)).toEqual("D");
   });
+  it("Debería convertir 1000 a M", () => {
+    expect(convertir(1000)).toEqual("M");
+  });
 });
