@@ -1,5 +1,5 @@
-const valores = [4,1];
-const simbolos = ["IV","I"];
+const valores = [5,4,1];
+const simbolos = ["V","IV","I"];
 
 function convertir (numero){
     let resultado = "";

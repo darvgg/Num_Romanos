@@ -10,4 +10,7 @@ describe("Convertir los números", () => {
   it("Debería convertir 4 a IV", () => {
     expect(convertir(4)).toEqual("IV");
   });
+  it("Debería convertir 5 a V", () => {
+    expect(convertir(5)).toEqual("V");
+  });
 });
