@@ -1,4 +1,4 @@
-import sumar from "./romanos";
+import convertir from "./romanos.js";
 
 const first = document.querySelector("#primer-numero");
 const form = document.querySelector("#romanos-form");
@@ -9,5 +9,5 @@ form.addEventListener("submit", (event) => {
 
   const firstNumber = Number.parseInt(first.value);
 
-  div.innerHTML = "<p>" + "" + "</p>";
+  div.innerHTML = "<p>" + convertir(firstNumber) + "</p>";
 });
