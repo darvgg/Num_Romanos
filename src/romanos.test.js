@@ -7,4 +7,7 @@ describe("Convertir los números", () => {
   it("Debería convertir 2 a I", () => {
     expect(convertir(2)).toEqual("II");
   });
+  it("Debería convertir 4 a IV", () => {
+    expect(convertir(4)).toEqual("IV");
+  });
 });
