@@ -19,4 +19,7 @@ describe("Convertir los números", () => {
   it("Debería convertir 53 a LIII", () => {
     expect(convertir(53)).toEqual("LIII");
   });
+  it("Debería convertir 500 a D", () => {
+    expect(convertir(500)).toEqual("D");
+  });
 });
